@@ -5,8 +5,7 @@ import cors from 'cors';
 import connectDB from './mongodb/connect.js';
 import postRoutes from './routes/postRoutes.js';
 import dalleRoutes from './routes/dalleRoutes.js';
-//zhabibek4u   lDSwsNOkqdKyq4Et
-//api key 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
+
 dotenv.config();
 
 const app = express();
